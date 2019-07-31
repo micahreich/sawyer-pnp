@@ -11,7 +11,7 @@ from math import pi
 from time import sleep
 from std_msgs.msg import String
 from moveit_commander.conversions import pose_to_list
-from Robotiq2FGripperSimpleController import gripper_open, gripper_close
+from simple_pnp_gripper import gripper_open, gripper_close
 from gazebo_msgs.srv import (
     SpawnModel,
     DeleteModel,

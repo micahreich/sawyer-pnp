@@ -22,7 +22,6 @@ from geometry_msgs.msg import (
     Point,
     Quaternion,
 )
-## END_SUB_TUTORIAL
 
 def all_close(goal, actual, tolerance):
   """
@@ -54,7 +53,7 @@ class MoveGroupPythonIntefaceTutorial(object):
     super(MoveGroupPythonIntefaceTutorial, self).__init__()
 
     moveit_commander.roscpp_initialize(joint_state_topic)
-    rospy.init_node('blank_move_group',
+    rospy.init_node('simple_pnp',
                     anonymous=True)
     moveit_commander.roscpp_initialize(sys.argv)
 

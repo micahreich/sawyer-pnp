@@ -170,7 +170,7 @@ def create_cube_request(modelname, px, py, pz, rr, rp, ry, sx, sy, sz):
 
     USERNAME = 'micahreich'    # Name of your user on your PC ... I'm not sure of an alternative to absolute paths
 
-    with open('/home/' + USERNAME + '/catkin_ws/src/robotiq/robotiq_2f_gripper_control/nodes/cube.sdf', 'r') as file:
+    with open('/home/' + USERNAME + '/catkin_ws/src/robotiq/robotiq_2f_gripper_control/models/cube.sdf', 'r') as file:
       sdf_cube = file.read().replace('\n', '')
 
     cube = deepcopy(sdf_cube)

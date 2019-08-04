@@ -50,5 +50,5 @@ roslaunch sawyer_irl_project robot_gazebo.launch
 In a new terminal window, once ``robot_gazebo.launch`` has finished starting RViz and Gazebo, start ``simple_pnp_gazebo.py``:
 
 ```bash
-rosrun robotiq_2f_gripper_control simple_pnp_gazebo.launch
+rosrun robotiq_2f_gripper_control simple_pnp_gazebo.py
 ```

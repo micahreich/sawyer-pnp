@@ -95,7 +95,7 @@ class PickAndPlace(object):
 
   def go_to_pose_goal(self, ox, oy, oz, ow, px, py, pz):
     """
-    Movement method to go to desires end effector pose
+    Movement method to go to desired end effector pose
     @param: ox: Pose orientation for the x-axis (part of Quaternion)
     @param: oy: Pose orientation for the y-axis (part of Quaternion)
     @param: oz: Pose orientation for the z-axis (part of Quaternion)

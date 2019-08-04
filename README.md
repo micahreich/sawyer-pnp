@@ -21,7 +21,16 @@ This repository depends on the following (clone into catkin workspace ``src`` fo
 
 [Gazebo ROS Link Attacher Plugin](https://github.com/pal-robotics/gazebo_ros_link_attacher)
 
-The contents of this repository can not all be installed all in one location. Please refer to the subdirectories' READMEs for information regarding installation of said directory / folder. 
+The contents of this repository can not all be installed all in one location. Please refer to the following project structure for directions on installation of each folder:
+
+
+    .
+    ├── gazebo_ros_link_attacher_scripts  # Put contents into /gripper_ros_link_attacher/scripts/
+    ├── models                            # Put whole folder into robotiq/robotiq_2f_gripper_control/
+    ├── pick_and_place_scripts            # Put contents into /robotiq/robotiq_2f_gripper_control/
+    └── README.md
+
+ 
 
 ## Usage
 First, navigate to your ``catkin_ws`` folder in a new terminal window and make sure the workspace has been sourced properly:

@@ -29,8 +29,6 @@ from geometry_msgs.msg import (
 from copy import deepcopy
 from tf.transformations import quaternion_from_euler
 
-## END_SUB_TUTORIAL
-
 def all_close(goal, actual, tolerance):
   """
   Convenience method for testing if a list of values are within a tolerance of their counterparts in another list

@@ -34,7 +34,6 @@ def gripper_to_pos(position, force, speed, hp):
 
         pub.publish(command)
 
-        rospy.loginfo("I'm in the while + hp: %d", hp)
         rospy.loginfo("Position: %d", position)
         rospy.sleep(1.0)
         hp_g = True
